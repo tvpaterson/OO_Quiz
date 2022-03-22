@@ -44,10 +44,24 @@ A.     class Musician{
 # Composition and Aggregation
 
 6. What do we mean by 'composition' in reference to object-oriented programming?
+A. Composition has instances of other classes, it is a class in itself but it's made up of other classes. 
 
 7. When would you use composition? Provide a simple example in Java.
+A. An example of compostion in Java:
+
+    class Person(){
+        
+        Name name; * this would be another class *
+        Age age; * this would be another class *
+
+        Person(Name name, Age age){
+            this.name = name;
+            this.age = age;
+        }
+    }
 
 8. Give a difference between composition and aggregation?
+A.
 
 9. What is/are the advantage(s) of using composition/aggregation?
 
