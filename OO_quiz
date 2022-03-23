@@ -21,10 +21,10 @@ A. Applying polymorphism would result in class inheritance, here is an example:
     }
 
 3. What can we use to implement polymorphism in Java?
-A. Inheritance
+A. Inheritance and Interfacing
 
 4. How many 'forms' can an object take when using polymorphism?
-A. 2 forms, it's original form and it's extended form.
+A. 2 forms, it's original form and it's extended form. (now realise that it can tak on multiple forms with the use of interfaces)
 
 5. Give an example of when you could use polymorphism.
 A.     class Musician{
@@ -61,9 +61,10 @@ A. An example of compostion in Java:
     }
 
 8. Give a difference between composition and aggregation?
-A.
+A. Composition implies that the contained class cannot exist independently of the container, where as aggregation the child can exist independently from its parent.
 
 9. What is/are the advantage(s) of using composition/aggregation?
+A. 
 
 10. When using composition, when an object is destroyed, what happens to all the objects it is composed of?
 
